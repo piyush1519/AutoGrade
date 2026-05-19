@@ -1,0 +1,12 @@
+node_modules/
+.env
+__pycache__/
+*.pyc
+*.pyo
+uploads/student/*
+uploads/model/*
+!uploads/student/.gitkeep
+!uploads/model/.gitkeep
+logs/*.log
+frontend/build/
+.DS_Store

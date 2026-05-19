@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:wght@400;500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap');
+
+:root {
+  --bg:     #07080f;
+  --bg2:    #0c0d1c;
+  --bg3:    #101224;
+  --bg4:    #14162c;
+  --bord:   rgba(255,255,255,0.07);
+  --bord2:  rgba(255,255,255,0.13);
+  --amber:  #f59e0b;
+  --amberL: #fcd34d;
+  --amberG: rgba(245,158,11,0.12);
+  --teal:   #2dd4bf;
+  --tealG:  rgba(45,212,191,0.10);
+  --grn:    #34d399;
+  --red:    #f87171;
+  --pur:    #a78bfa;
+  --blu:    #60a5fa;
+  --tx1:    #f0f0f8;
+  --tx2:    #8585a8;
+  --tx3:    #3a3a58;
+  --mono:   'DM Mono', monospace;
+  --head:   'Syne', sans-serif;
+  --body:   'DM Sans', sans-serif;
+  --r:      10px;
+  --rl:     16px;
+  --rxl:    24px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--tx1);font-family:var(--body);font-size:14px;
+  line-height:1.65;min-height:100vh;-webkit-font-smoothing:antialiased}
+::-webkit-scrollbar{width:4px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:var(--bord2);border-radius:2px}
+::selection{background:rgba(245,158,11,0.18)}
+
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes glow{0%,100%{opacity:.6}50%{opacity:1}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
