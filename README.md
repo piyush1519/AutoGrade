@@ -10,9 +10,9 @@ AutoGrade automatically evaluates a student answer against a model answer and as
 
 | Service | Platform | URL |
 |---------|----------|-----|
-| ⚛️ React Frontend | Vercel | [autograde.vercel.app](https://autograde.vercel.app) |
-| 🟢 Node.js API | Render | https://autograde-node.onrender.com |
-| 🐍 Python FastAPI | Render | https://autograde-python.onrender.com |
+| ⚛️ React Frontend | Vercel | [[autograde.vercel.app](https://autograde.vercel.app)](https://auto-grade-taupe.vercel.app) |
+| 🟢 Node.js API | Render | [https://autograde-node.onrender.com](https://autograde-node.onrender.com) |
+| 🐍 Python FastAPI | Render |[ https://autograde-python.onrender.com](https://autograde-python.onrender.com) |
 | 🍃 MongoDB | Atlas | Managed Cloud |
 
 > ⚠️ **Note on Free Tier (Render):** Render free services spin down after 15 minutes of inactivity. The first request after a period of inactivity may take **~30 seconds** to wake up. This is expected behavior on the free plan.
