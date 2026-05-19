@@ -6,6 +6,19 @@ AutoGrade automatically evaluates a student answer against a model answer and as
 
 ---
 
+## 🚀 Live Deployment
+
+| Service | Platform | URL |
+|---------|----------|-----|
+| ⚛️ React Frontend | Vercel | [autograde.vercel.app](https://autograde.vercel.app) |
+| 🟢 Node.js API | Render | https://autograde-node.onrender.com |
+| 🐍 Python FastAPI | Render | https://autograde-python.onrender.com |
+| 🍃 MongoDB | Atlas | Managed Cloud |
+
+> ⚠️ **Note on Free Tier (Render):** Render free services spin down after 15 minutes of inactivity. The first request after a period of inactivity may take **~30 seconds** to wake up. This is expected behavior on the free plan.
+
+---
+
 ## Architecture
 
 ```
@@ -26,8 +39,8 @@ Nginx (port 80) ──── /api/ ──► Node.js (port 5000) ──► Mongo
 ## Quick Start
 
 ```bash
-# Clone / place project in a directory
-git clone <repo> AutoGrade
+# Clone the repository
+git clone https://github.com/piyush1519/AutoGrade.git
 cd AutoGrade
 
 # Start all services
@@ -202,7 +215,7 @@ PORT=5000 MONGO_URI=mongodb://localhost:27017/autograde \
 # React frontend
 cd frontend
 npm install
-REACT_APP_API_URL=http://localhost:8080 start
+REACT_APP_API_URL=http://localhost:8080 npm start
 ```
 
 ---
